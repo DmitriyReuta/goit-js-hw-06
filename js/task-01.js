@@ -1,6 +1,6 @@
 const ulCategories = document.querySelector("#categories");
 const liItems = ulCategories.querySelectorAll(".item");
-console.log(`li items: ${liItems.length}`);
+// console.log(`li items: ${liItems.length}`);
 
 liItems.forEach((item) => {
     const titleH2 = item.querySelector("h2").textContent;
